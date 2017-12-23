@@ -1,0 +1,21 @@
+$$
+integer a;
+integer b;
+integer c;
+boolean d;
+$$
+if(a<b){
+	a := c;
+} else {
+	a := b;
+} endif
+a := (-b + c)/10;
+if(a<b){
+	a := c;
+} endif
+a := -b + c/10;
+a := (-1 + b)*(-c - 10);
+a := -1 + b* -c - 10;
+d := false;
+d := true;
+$$
